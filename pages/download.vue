@@ -34,8 +34,8 @@
           <a class="button" :href="`/releases/windows/${windowsReleases[0].version}`" rel="nofollow"
             download="Superscript Setup.exe">Download for Windows</a>
           &nbsp;
-          <a class="button" :href="`/releases/dmg/${macReleases[0].version}`" rel="nofollow" download="Superscript.dmg"
-           >Download for Mac</a>
+          <a class="button" :href="`/releases/dmg/${macReleases[0].version}`" rel="nofollow"
+            download="Superscript.dmg">Download for Mac</a>
           <p>
             <small>Requires macOS 10.9+ or Windows 7</small>
           </p>
@@ -49,8 +49,8 @@
         <small>Requires Windows 7 or newer</small>
         <ul>
           <li v-for="release of windowsReleases" :key="release.version">
-            <a :href="`/releases/windows/${release.version}`" rel="nofollow"
-              download="Superscript Setup.exe">v{{ release.version
+            <a :href="`/releases/windows/${release.version}`" rel="nofollow" download="Superscript Setup.exe">v{{
+              release.version
               }}</a>
           </li>
         </ul>
@@ -85,7 +85,7 @@
         <h3>Example Scripts</h3>
         <ul>
           <li v-for="example of examples" :key="example.title">
-            <a :href="`/examples/${example.filename}`" rel="nofollow"
+            <a :href="`${NUXT_APP_BASE_URL ?? '/'}examples/${example.filename}`" rel="nofollow"
               :download="example.filename">{{ example.title }}</a>
             by {{ example.writer }}
             <small v-if="example.copyright">&copy; {{ example.copyright }}</small>
@@ -105,7 +105,11 @@
         <div v-for="release of changelog" :key="release.version">
           <h4>
             {{ release.version }}
-            <time :datetime="release.date">— {{ new Date(release.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric', day: 'numeric' }) }}</time>
+            <time :datetime="release.date">— {{ new Date(release.date).toLocaleDateString('en-US', {
+              month: 'short',
+              year:
+                'numeric', day: 'numeric'
+            }) }}</time>
           </h4>
           <ul>
             <li v-for="(change, index) of release.changes" :key="index">{{ change }}</li>
