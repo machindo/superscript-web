@@ -1,0 +1,31 @@
+Todo:
+  ☐ Make one license = one machine more clear on pricing page
+  ☐ Allow free purchases, after coupon
+  ☐ Create customers in stripe
+  ☐ Add phone number
+  ☐ Add tracking for license creation
+  ✔ Create forever policy @done
+  ✔ Implement opt-in Google Analytics @done
+  ✔ Buy licenses @done
+  ✔ Add licenses to an account that already has one @done
+  ✔ Begin free trial via app @done
+  ✔ Link license to machine via app @done
+  ✔ Unlink license from machine via website @done
+  ✔ Create licenses for backers @done
+  ✔ Send out KS survey @done
+  ✔ Show expiry for abilities in app @done
+  ✔ Create featured backers section @done
+  ✔ Save order history @done
+  ✔ Add captcha for signup @done
+  ✔ Create separate links for .deb, .rpm and .AppImage @done
+  ✔ Stripe cookie management @done
+  ✔ Forgot/don't know password @done
+  ✔ Contact page @done
+  ✔ Track downloads and sales @done
+  ✔ Implement "limited" policy details @done
+  ✔ Coupon codes @done
+  ✔ Require cookies before signing up or logging in @done
+  ✔ Make coupon codes case-insensitive @done
+  ✔ Coupon codes not working. Send displayed price with request and throw error if backend-calculated price doesn't match. @done
+  ✔ Add release notes @done
+  ✔ Add refund policy @done

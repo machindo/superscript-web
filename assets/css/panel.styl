@@ -1,0 +1,35 @@
+@import 'vars'
+
+.panels
+  display flex
+  margin-bottom 1.2em
+  flex-wrap wrap
+  justify-content space-between
+
+.panel
+  flex 1 0 100%
+  display flex
+  margin-bottom 1.2em
+  padding 1em
+  border $border
+  border-radius 2px
+  flex-direction column
+
+.panel-heading
+  display flex
+  grid-area heading
+  background $textColor
+  text-transform uppercase
+  color $pageBackground
+  justify-content center
+  align-items center
+
+@supports (display grid)
+  .panels
+    display grid
+    grid-column-gap 1em
+    grid-row-gap 1.2em
+    justify-content unset
+
+  .panel
+    margin 0

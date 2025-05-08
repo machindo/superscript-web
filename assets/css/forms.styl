@@ -1,0 +1,66 @@
+@import 'vars'
+
+.input-group
+  display flex
+  margin-top 2em
+  flex-direction column
+
+label
+  display block
+  font-weight bold
+
+  &.disabled
+    opacity .3
+
+.label-checkbox
+  display flex
+  margin-top 1em
+  font-weight normal
+  align-items center
+  flex-wrap wrap
+
+  > input
+    margin-right 1ch
+
+  > p
+    flex-basis 100%
+
+.input
+input:not([type])
+input[type='date']
+input[type='datetime-local']
+input[type='email']
+input[type='month']
+input[type='number']
+input[type='password']
+input[type='search']
+input[type='tel']
+input[type='text']
+input[type='time']
+input[type='url']
+  height 1.5em * $lineHeight
+  padding 0
+  border-top none
+  border-left none
+  border-right none
+  border-bottom solid 2px
+  background none
+  font-size inherit
+  line-height inherit
+
+  &:focus
+    color $brandSecondaryColor
+    outline none
+
+  &:invalid
+  &.invalid
+    color $errorColor
+
+  &:disabled
+    opacity .3
+
+::placeholder
+  color $lightTextColor
+
+.error
+  color $errorColor

@@ -1,0 +1,29 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+/.nuxt
+/.awcache
+
+# Nuxt generate
+/dist
+/.output
+sw.*
+
+# Secrets
+/id_rsa*
+.env
+.env.dev
+.env.production
+/Superscript-dd8806f18a7e.json
+app.yaml
+app.dev.yaml
+app.stage.yaml
+
+/tmp
+
+# OS files
+.DS_Store

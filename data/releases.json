@@ -1,0 +1,347 @@
+[
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.3.5"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.3.6"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.4.0"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.5.0"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.5.2"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.0.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.0.1"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.1.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.2.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.2.1"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.2.2"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.1"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.2"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.3"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.5"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.3.6"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.4.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.0"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.2"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.3"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.4"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.5"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.5.6"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.0.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.0.1"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.1.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.2.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.2.1"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.2.2"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.1"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.2"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.3"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.5"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.3.6"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.4.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.0"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.2"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.5.3"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.3"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.5.4"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.4"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.5"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.5.6"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.2.2"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.3.0"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.3.0"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.3.2"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.3.2"
+  },
+  {
+    "extension": "AppImage",
+    "os": "linux",
+    "version": "1.3.3"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.3.3"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.3.5"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.3.6"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.4.0"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.5.0"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.5.2"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.5.3"
+  },
+  {
+    "extension": "rpm",
+    "os": "linux",
+    "version": "1.5.4"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.3.0"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.3.2"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.3.3"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.3.5"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.3.6"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.4.0"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.5.0"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.5.2"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.5.3"
+  },
+  {
+    "extension": "deb",
+    "os": "linux",
+    "version": "1.5.4"
+  }
+]

@@ -1,0 +1,56 @@
+@import 'vars'
+
+.button
+  display inline-block
+  display inline-flex
+  justify-content center
+  align-items center
+  padding 1ch
+  border solid 2px
+  border-radius 4px
+  background none
+  color $brandSecondaryColor
+  text-align center
+  text-decoration none
+  font-size inherit
+  font-weight 600
+  line-height inherit
+  cursor pointer
+
+  // min-height doesn't work with flexbox on IE
+  // IE supports flex, but not @supports
+  @supports (display flex)
+    min-height 2em * $lineHeight
+
+  &:hover
+    color $brandColor
+
+  &:disabled
+    color $lightTextColor
+
+  &.primary
+    min-width 200px
+    border none
+    background-color $brandSecondaryColor
+    color $brandContrastColor
+    transition background-position-x .2s
+
+    &:hover:not(:disabled)
+      background-color $brandColor
+
+.text-button
+  display inline-block
+  padding 0 1ch
+  border none
+  background none
+  color $brandSecondaryColor
+  line-height inherit
+  cursor pointer
+
+  &:hover
+    outline solid 2px
+    outline-offset -2px
+
+  &:disabled
+    color $lightTextColor
+    outline none

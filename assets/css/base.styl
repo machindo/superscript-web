@@ -1,0 +1,107 @@
+@import 'vars'
+
+*
+*::before
+*::after
+  box-sizing border-box
+
+:root
+  line-height $lineHeight
+  background $pageBackground
+  font-family $baseFont
+  font-size $fontSize1
+  color $textColor
+
+body
+  margin 0
+
+h1
+  font-size $fontSize3
+
+h2
+  font-size $fontSize2
+
+a, button
+  > svg
+    vertical-align bottom
+    fill currentColor
+
+a
+a:link
+a:visited
+  color $brandSecondaryColor
+
+  small > &
+    color $lightTextColor
+
+a:hover
+  color $brandColor
+
+table
+  width 100%
+
+ol
+  list-style decimal
+
+  ol
+    list-style lower-alpha
+
+    ol
+      list-style lower-roman
+
+      ol
+        list-style decimal
+
+        ol
+          list-style lower-alpha
+
+          ol
+            list-style lower-roman
+
+li
+  padding 0
+
+code
+  margin 0 3px
+  padding 3px 4px 1px
+  font-family $editorFontFamily
+  background $editorPageBackground
+  white-space nowrap
+  color $textColor
+  outline solid 2px $editorBackground
+
+kbd
+  padding 2px 5px
+  border solid 1px $borderColor
+  border-radius 5px
+  box-shadow 0 1px 3px #0002
+  font-family $baseFont
+
+dl
+  display grid
+  padding 1em
+  grid-template-columns auto 1fr
+  grid-column-gap 1em
+  grid-row-gap 2em
+  text-align left
+
+dt
+  font-weight bold
+
+dd
+  margin 0
+
+  ul
+    margin 0
+    padding-left 2ch
+
+@media only screen and (max-width: $mediumMax)
+  :root
+    font-size 1em
+
+  dl
+    grid-template-columns 1fr
+    grid-row-gap 0
+
+  dd
+    margin-bottom 1em
