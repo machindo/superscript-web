@@ -85,8 +85,8 @@
         <h3>Example Scripts</h3>
         <ul>
           <li v-for="example of examples" :key="example.title">
-            <a :href="`${NUXT_APP_BASE_URL ?? '/'}examples/${example.filename}`" rel="nofollow"
-              :download="example.filename">{{ example.title }}</a>
+            <a :href="`examples/${example.filename}`" rel="nofollow" :download="example.filename">{{ example.title
+            }}</a>
             by {{ example.writer }}
             <small v-if="example.copyright">&copy; {{ example.copyright }}</small>
             <template v-if="example.linkHref && example.linkText">

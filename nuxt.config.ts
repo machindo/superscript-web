@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
+      base: {
+        href: process.env.NUXT_APP_BASE_URL || '/'
+      },
       title:
         'Superscript: the only text editor designed specially for writing comics.',
       meta: [

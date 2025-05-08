@@ -32,7 +32,7 @@
           <p>Get started by downloading an example script.</p>
           <ul>
             <li v-for="example of examples" :key="example.title">
-              <a :href="`${NUXT_APP_BASE_URL ?? '/'}examples/${example.filename}`" rel="nofollow">{{ example.title
+              <a :href="`examples/${example.filename}`" rel="nofollow">{{ example.title
                 }}</a> by
               {{ example.writer }}
               <small v-if="example.copyright">
