@@ -19,17 +19,6 @@
             <small>Requires Windows 7+</small>
           </p>
         </div>
-        <div v-else-if="os === 'linux'">
-          <a class="button primary" :href="`/releases/deb/${linuxReleases[0].version}`" rel="nofollow"
-            download="Superscript.deb">Download .deb</a>
-          <a class="button primary" :href="`/releases/rpm/${linuxReleases[0].version}`" rel="nofollow"
-            download="Superscript.rpm">Download .rpm</a>
-          <a class="button primary" :href="`/releases/AppImage/${linuxReleases[0].version}`" rel="nofollow"
-            download="Superscript.AppImage">Download AppImage</a>
-          <p>
-            <small>Requires at least Debian 8, Fedora 21 or Ubuntu 12.04.</small>
-          </p>
-        </div>
         <div v-else>
           <a class="button" :href="`/releases/windows/${windowsReleases[0].version}`" rel="nofollow"
             download="Superscript Setup.exe">Download for Windows</a>
@@ -49,7 +38,7 @@
         <small>Requires Windows 7 or newer</small>
         <ul>
           <li v-for="release of windowsReleases" :key="release.version">
-            <a :href="`/releases/windows/${release.version}`" rel="nofollow" download="Superscript Setup.exe">v{{
+            <a :href="release.url" rel="nofollow" download="Superscript Setup.exe">v{{
               release.version
               }}</a>
           </li>
@@ -60,23 +49,10 @@
         <small>Requires macOS 10.9 or newer</small>
         <ul>
           <li v-for="release of macReleases" :key="release.version">
-            <a :href="`/releases/${release.extension}/${release.version}`" rel="nofollow"
-              :download="`Superscript.${release.extension}`">v{{
-                release.version }}</a>
+            <a :href="release.url" rel="nofollow" :download="`Superscript.${release.extension}`">v{{
+              release.version }}</a>
           </li>
         </ul>
-      </div>
-      <div class="panel">
-        <h3>Linux releases</h3>
-        <small>Requires at least Debian 8, Fedora 21 or Ubuntu 12.04 (or possibly others; give it a try)</small>
-        <ul>
-          <li v-for="release of linuxReleases" :key="release.version + release.extension">
-            <a :href="`/releases/${release.extension}/${release.version}`" rel="nofollow"
-              :download="`Superscript.${release.extension}`">v{{
-                release.version }} ({{ release.extension }})</a>
-          </li>
-        </ul>
-        <small>Linux version is not tested for every supported platform. Please try before you buy.</small>
       </div>
     </div>
 
@@ -158,7 +134,7 @@ useSeoMeta({
   margin .5ch
 
 .all-releases
-  grid-template-columns 1fr 1fr 1fr
+  grid-template-columns 1fr 1fr
 
   > .panel
     flex 0 1 45%

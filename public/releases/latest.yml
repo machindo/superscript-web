@@ -1,0 +1,9 @@
+version: 1.6.0
+files:
+  - url: https://github.com/machindo/superscript/releases/download/v1.6.0/Superscript-Setup-1.6.0.exe
+    sha512: vksLYYAJuT/461WD0VTMGZKkl+kH/QPaHDxrTxluKRmctqUcY57mZIuxfwgQwRY+tWOg2NaQEQ450oavrPSByg==
+    size: 169930488
+    isAdminRightsRequired: true
+path: Superscript-Setup-1.6.0.exe
+sha512: vksLYYAJuT/461WD0VTMGZKkl+kH/QPaHDxrTxluKRmctqUcY57mZIuxfwgQwRY+tWOg2NaQEQ450oavrPSByg==
+releaseDate: '2025-05-14T16:11:47.188Z'

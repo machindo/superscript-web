@@ -5,12 +5,10 @@
       <p class="hero--brand-name brand-name">Superscript</p>
       <p class="hero--description">The dedicated comic book script editor.</p>
       <div class="hero-actions">
-        <nuxt-link
-          class="button primary"
-          to="/download"
-          rel="nofollow"
-          download="superscript.AppImage"
-        >Download</nuxt-link>
+        <nuxt-link class="button primary" to="/download" rel="nofollow"
+          download="superscript.AppImage">Download</nuxt-link>
+        <iframe src="https://github.com/sponsors/machindo/button" title="Sponsor machindo" height="32" width="114"
+          style="border: 0; border-radius: 6px;"></iframe>
       </div>
     </div>
   </section>
@@ -35,6 +33,12 @@ import SuperscriptLogo from '../components/SuperscriptLogo.vue'
   font-weight 200
   font-size 1.618rem
   color rgba(black .6)
+
+.hero-actions
+  display inline-flex
+  flex-direction column
+  align-items center
+  gap: 1em
 
 .primary
   padding 1em 2em

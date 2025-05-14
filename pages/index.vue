@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="hero-bg"></div>
+    <Announcement />
     <Hero></Hero>
     <button class="text-button arrow-button scroll-cta" @click="scrollTo('feature-autoformat')">&downarrow;</button>
     <div ref="features" class="features">
@@ -119,6 +120,7 @@
 import debounce from 'lodash/debounce';
 import scrollIntoView from 'scroll-into-view-if-needed';
 
+import Announcement from '../components/home/Announcement.vue';
 import Backers from '../components/home/Backers.vue';
 import Hero from '../components/home/Hero.vue';
 import PseudoEditor from '../components/home/PseudoEditor.vue';
