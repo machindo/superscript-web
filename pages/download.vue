@@ -6,22 +6,22 @@
       </div>
       <div v-if="macReleases.length && windowsReleases.length" class="panel latest-releases">
         <div v-if="os === 'mac'">
-          <a class="button primary" :href="`/releases/dmg/${macReleases[0].version}`" rel="nofollow"
-            download="Superscript.dmg">Download for Mac</a>
+          <a class="button primary" :href="macReleases[0].url" rel="nofollow" download="Superscript.dmg">Download for
+            Mac</a>
           <p>
             <small>Requires macOS 10.9+</small>
           </p>
         </div>
         <div v-else-if="os === 'windows'">
-          <a class="button primary" :href="`/releases/windows/${windowsReleases[0].version}`" rel="nofollow"
+          <a class="button primary" :href="windowsReleases[0].url" rel="nofollow"
             download="Superscript Setup.exe">Download for Windows</a>
           <p>
             <small>Requires Windows 7+</small>
           </p>
         </div>
         <div v-else>
-          <a class="button" :href="`/releases/windows/${windowsReleases[0].version}`" rel="nofollow"
-            download="Superscript Setup.exe">Download for Windows</a>
+          <a class="button" :href="windowsReleases[0].url" rel="nofollow" download="Superscript Setup.exe">Download for
+            Windows</a>
           &nbsp;
           <a class="button" :href="`/releases/dmg/${macReleases[0].version}`" rel="nofollow"
             download="Superscript.dmg">Download for Mac</a>
@@ -40,7 +40,7 @@
           <li v-for="release of windowsReleases" :key="release.version">
             <a :href="release.url" rel="nofollow" download="Superscript Setup.exe">v{{
               release.version
-              }}</a>
+            }}</a>
           </li>
         </ul>
       </div>
@@ -62,7 +62,7 @@
         <ul>
           <li v-for="example of examples" :key="example.title">
             <a :href="`examples/${example.filename}`" rel="nofollow" :download="example.filename">{{ example.title
-            }}</a>
+              }}</a>
             by {{ example.writer }}
             <small v-if="example.copyright">&copy; {{ example.copyright }}</small>
             <template v-if="example.linkHref && example.linkText">
