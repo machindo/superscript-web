@@ -1,5 +1,5 @@
 <template>
-  <div v-if="isShown" class="announcement-wrapper">
+  <div v-if="isShown" class="announcement-wrapper" @click.self="isShown = false">
     <div class="announcement">
       <h2>Superscript is now free!</h2>
       <button class="close-button" @click="isShown = false" title="Dismiss announcement">&#x2715;</button>
@@ -29,14 +29,13 @@ const isShown = ref(true)
   inset 0
   display grid
   z-index 1001
-  pointer-events none
 
 .announcement
   position relative
   place-self center
-  width 50ch
+  width 95%
   max-height 95%
-  max-width 95%
+  max-width 50ch
   padding 1em
   border solid 3px $borderColor
   background $pageBackground

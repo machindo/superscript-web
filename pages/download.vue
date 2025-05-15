@@ -20,7 +20,8 @@
           </p>
         </div>
         <div v-else>
-          <a class="button" :href="windowsReleases[0].url" rel="nofollow" download="Superscript Setup.exe">Download for
+          <a class="button primary" :href="windowsReleases[0].url" rel="nofollow"
+            download="Superscript Setup.exe">Download for
             Windows</a>
           &nbsp;
           <a class="button" :href="`/releases/dmg/${macReleases[0].version}`" rel="nofollow"
@@ -40,7 +41,7 @@
           <li v-for="release of windowsReleases" :key="release.version">
             <a :href="release.url" rel="nofollow" download="Superscript Setup.exe">v{{
               release.version
-            }}</a>
+              }}</a>
           </li>
         </ul>
       </div>
@@ -62,7 +63,7 @@
         <ul>
           <li v-for="example of examples" :key="example.title">
             <a :href="`examples/${example.filename}`" rel="nofollow" :download="example.filename">{{ example.title
-              }}</a>
+            }}</a>
             by {{ example.writer }}
             <small v-if="example.copyright">&copy; {{ example.copyright }}</small>
             <template v-if="example.linkHref && example.linkText">
