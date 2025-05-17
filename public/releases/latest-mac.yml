@@ -1,11 +1,11 @@
-version: 1.6.0
+version: 1.6.1
 files:
-  - url: https://github.com/machindo/superscript/releases/download/v1.6.0/Superscript-1.6.0-arm64-mac.zip
-    sha512: TlG3ouCDs8a+U0n7Z6yiosXErR2/gNqv2JSxq7psgt2p3m+mkChgJP7Ubegx29I1lDDX0X90sYs9c40KlflWAg==
-    size: 106372957
-  - url: https://github.com/machindo/superscript/releases/download/v1.6.0/Superscript-1.6.0-arm64.dmg
-    sha512: s9flD8TeYwpZJbyZMHEwEB4+xwfcG5NkmKKV6pZXYU95RYUg8kNuL8y5qissXOqvM90IyETyXCYfyPSyVeDu6w==
-    size: 110900072
-path: Superscript-1.6.0-arm64-mac.zip
-sha512: TlG3ouCDs8a+U0n7Z6yiosXErR2/gNqv2JSxq7psgt2p3m+mkChgJP7Ubegx29I1lDDX0X90sYs9c40KlflWAg==
-releaseDate: '2025-05-14T16:08:12.219Z'
+  - url: Superscript-1.6.1-arm64-mac.zip
+    sha512: fpnjNdjqlm6zcyyJYy0wcwnpjRrdQZ7tC5GNvGLRYvKCTnLeGHROEliqS0XAnq83sPYUU1UUuDdRiQ5nLQDgig==
+    size: 125776417
+  - url: Superscript-1.6.1-arm64.dmg
+    sha512: yj10AOzEOreg/MR8Ezm9YwTu0aRN7ZA7uLniO/mbsuV/Q/PFGAwLjIBgaTocFQJWiMlC9q+KAdQBZy637as7jw==
+    size: 131100266
+path: Superscript-1.6.1-arm64-mac.zip
+sha512: fpnjNdjqlm6zcyyJYy0wcwnpjRrdQZ7tC5GNvGLRYvKCTnLeGHROEliqS0XAnq83sPYUU1UUuDdRiQ5nLQDgig==
+releaseDate: '2025-05-17T14:00:24.242Z'

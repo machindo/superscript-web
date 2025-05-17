@@ -10,5 +10,17 @@
     "os": "windows",
     "version": "1.6.0",
     "url": "https://github.com/machindo/superscript/releases/download/v1.6.0/Superscript-Setup-1.6.0.exe"
+  },
+  {
+    "extension": "dmg",
+    "os": "mac",
+    "version": "1.6.1",
+    "url": "https://github.com/machindo/superscript/releases/download/v1.6.1/Superscript-1.6.1-arm64.dmg"
+  },
+  {
+    "extension": "exe",
+    "os": "windows",
+    "version": "1.6.1",
+    "url": "https://github.com/machindo/superscript/releases/download/v1.6.1/Superscript-Setup-1.6.1.exe"
   }
 ]

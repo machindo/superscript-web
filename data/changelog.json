@@ -1,5 +1,12 @@
 [
   {
+    "version": "1.6.1",
+    "date": "2025-05-17",
+    "changes": [
+      "Fix: export/print dialog not loading"
+    ]
+  },
+  {
     "version": "1.6.0",
     "date": "2025-05-14",
     "changes": [
