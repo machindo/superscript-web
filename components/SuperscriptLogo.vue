@@ -1,7 +1,7 @@
 <template>
   <svg :width :height viewBox="0 0 72 100">
     <defs>
-      <linearGradient :id="`${id}-superscript-logo--panels-gradient`" gradientUnits="userSpaceOnUse" x1="3.743" y1="26.0569"
+      <linearGradient id="superscript-logo--panels-gradient" gradientUnits="userSpaceOnUse" x1="3.743" y1="26.0569"
         x2="55.8284" y2="69.7617" gradientTransform="matrix(0.9999 -1.396218e-02 1.396218e-02 0.9999 -0.6882 0.5108)">
         <stop offset="0" style="stop-color:#3382BA" />
         <stop offset="0.2389" style="stop-color:#3B70AA" />
@@ -25,7 +25,7 @@
       c7.3-9.6,14.6-19.4,21.9-29.3c0.4-0.6,0.8-1.1,1.2-1.6c0.3-0.5,0.6-0.9,0.8-1.3c0.2-0.5,0.3-1,0.4-1.6c0-0.6,0-1.3-0.2-2.2
       c-0.1-0.9-0.3-1.9-0.5-3.1c-0.2-1.1-0.4-2.3-0.6-3.4c-0.2-1.1-0.3-2.1-0.5-2.8C70.1,47,70,46.5,70,46.5
       c-2.6-15.4-5.2-30.7-7.8-46.1c0-0.1,0-0.1-0.1-0.2c0-0.1-0.1-0.1-0.2-0.1C61.9,0,61.8,0,61.7,0C61.6,0,61.6,0,61.5,0" />
-    <path class="superscript-logo--panels" :fill="`url(#${id}-superscript-logo--panels-gradient)`" d="M22.3,64.9c-4.6,0.6-9.2,1.2-13.8,1.8c0,0-0.1,0-0.1,0c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1
+    <path class="superscript-logo--panels" fill="url(#superscript-logo--panels-gradient)" d="M22.3,64.9c-4.6,0.6-9.2,1.2-13.8,1.8c0,0-0.1,0-0.1,0c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1
       c0,0,0,0.1,0,0.1c0.1,7.1,0.3,14.2,0.4,21.3c0,0.1,0,0.1,0,0.1c0,0,0,0.1,0.1,0.1c0,0,0.1,0.1,0.1,0.1c0,0,0.1,0,0.1,0
       c4.8-0.4,9.7-0.8,14.5-1.3c0,0,0.1,0,0.1,0c0,0,0.1-0.1,0.1-0.1c0,0,0.1-0.1,0.1-0.1c0,0,0-0.1,0-0.2c-0.4-7.3-0.8-14.5-1.1-21.8
       c0,0,0-0.1,0-0.1c0,0,0-0.1-0.1-0.1c0,0-0.1,0-0.1-0.1C22.4,64.9,22.3,64.9,22.3,64.9 M41,62c-4.9,0.8-9.8,1.6-14.8,2.3
@@ -57,6 +57,4 @@
 </template>
 <script setup lang="ts">
 const { width, height } = defineProps<{ width: string, height: string }>()
-
-const id = Math.random().toString(36).substring(2, 15)
 </script>
